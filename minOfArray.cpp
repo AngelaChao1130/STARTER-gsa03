@@ -3,7 +3,7 @@
 #include <iostream>
 
 int minOfArray(int a[], int size) {
-  if (size < 1) {
+  if (size = 0) {
     std::cerr << "ERROR: minOfArray called with size < 1" << std::endl;
     exit(1);
   }
